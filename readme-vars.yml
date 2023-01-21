@@ -1,0 +1,44 @@
+---
+
+# project information
+project_name: cura
+project_url: "https://ultimaker.com/software/ultimaker-cura"
+project_logo: "https://github.com/Ultimaker/Cura/raw/main/resources/images/cura-icon.png"
+project_blurb: "[Ultimaker Cura]({{ project_url }}) is a state-of-the-art slicer app to prepare your 3D models for your 3D printer."
+project_lsio_github_repo_url: "https://github.com/linuxserver/docker-{{ project_name }}"
+project_blurb_optional_extras_enabled: false
+
+# supported architectures
+available_architectures:
+  - { arch: "{{ arch_x86_64 }}", tag: "latest"}
+
+# development version
+development_versions: false
+
+# container parameters
+common_param_env_vars_enabled: true
+param_container_name: "{{ project_name }}"
+param_usage_include_env: true
+param_env_vars:
+  - { env_var: "TZ", env_value: "Europe/London", desc: "Specify a timezone to use EG Europe/London." }
+param_usage_include_vols: true
+param_volumes:
+  - { vol_path: "/config", vol_host_path: "/path/to/config", desc: "Users home directory in the container, stores program settings and files" }
+param_usage_include_ports: true
+param_ports:
+  - { external_port: "3000", internal_port: "3000", port_desc: "Cura desktop gui." }
+
+# application setup block
+app_setup_block_enabled: true
+app_setup_block: |
+  The application can be accessed at:
+
+  * http://yourhost:3000/
+
+  By default the user/pass is abc/abc, if you change your password or want to login manually to the GUI session for any reason use the following link:
+
+  * http://yourhost:3000/?login=true
+
+# changelog
+changelogs:
+  - { date: "21.01.23:", desc: "Initial release." }
