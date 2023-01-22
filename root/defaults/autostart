@@ -1,1 +1,1 @@
-/app/cura/cura --appimage-extract-and-run
+/app/cura/cura --appimage-extract-and-run -platformtheme gtk3
