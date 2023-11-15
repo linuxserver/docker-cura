@@ -7,6 +7,8 @@ release_type: stable
 release_tag: latest
 ls_branch: main
 repo_vars:
+  - EXT_USER = 'Ultimaker'
+  - EXT_REPO = 'Cura'
   - BUILD_VERSION_ARG = 'CURA_VERSION'
   - LS_USER = 'linuxserver'
   - LS_REPO = 'docker-cura'
