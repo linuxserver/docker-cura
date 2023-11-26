@@ -1,0 +1,28 @@
+---
+
+# jenkins variables
+project_name: docker-cura
+external_type: github_stable
+release_type: stable
+release_tag: latest
+ls_branch: main
+repo_vars:
+  - EXT_USER = 'Ultimaker'
+  - EXT_REPO = 'Cura'
+  - BUILD_VERSION_ARG = 'CURA_VERSION'
+  - LS_USER = 'linuxserver'
+  - LS_REPO = 'docker-cura'
+  - CONTAINER_NAME = 'cura'
+  - DOCKERHUB_IMAGE = 'linuxserver/cura'
+  - DEV_DOCKERHUB_IMAGE = 'lsiodev/cura'
+  - PR_DOCKERHUB_IMAGE = 'lspipepr/cura'
+  - DIST_IMAGE = 'ubuntu'
+  - MULTIARCH = 'false'
+  - CI = 'true'
+  - CI_WEB = 'true'
+  - CI_PORT = '3000'
+  - CI_SSL = 'false'
+  - CI_DELAY = '120'
+  - CI_DOCKERENV = 'TZ=US/Pacific'
+  - CI_AUTH = 'user:password'
+  - CI_WEBPATH = ''
