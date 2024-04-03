@@ -35,7 +35,6 @@ NAME                                                                          VE
 Charon                                                                        1.0                                                 python                       
 PyGObject                                                                     3.42.2                                              python                       
 PyJWT                                                                         2.6.0                                               python                       
-PyQt6                                                                         6.4.2                                               python                       
 abbrev                                                                        2.0.0                                               npm                          
 accepts                                                                       1.3.8                                               npm                          
 adduser                                                                       3.134                                               deb                          
@@ -1198,6 +1197,7 @@ npm-profile                                                                   9.
 npm-registry-fetch                                                            16.1.0                                              npm                          
 npm-user-validate                                                             2.0.0                                               npm                          
 npmlog                                                                        7.0.1                                               npm                          
+numpy-stl                                                                     2.10.1                                              python                       
 oauthlib                                                                      3.2.2                                               python                       
 object-assign                                                                 4.1.1                                               npm                          
 object-inspect                                                                1.13.1                                              npm                          
@@ -1240,6 +1240,7 @@ pulseaudio                                                                    16
 pulseaudio-utils                                                              16.1+dfsg1-2+b1                                     deb                          
 pulseaudio2                                                                   0.5.5                                               npm                          
 pyparsing                                                                     3.0.9                                               python                       
+pyserial                                                                      3.4                                                 python                       
 python                                                                        3.10.4                                              binary                       
 python-apt                                                                    2.6.0                                               python                       
 python-apt-common                                                             2.6.0                                               deb                          
