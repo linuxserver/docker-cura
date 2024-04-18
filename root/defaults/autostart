@@ -1,1 +1,1 @@
-/opt/cura/AppRun
+dbus-launch /opt/cura/AppRun
