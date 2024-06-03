@@ -328,5 +328,6 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **03.06.24:** - Update ingestion from GitHub to handle RC releases.
 * **10.02.24:** - Update Readme with new env vars and ingest proper PWA icon.
 * **15.11.23:** - Initial release.

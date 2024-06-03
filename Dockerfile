@@ -28,7 +28,7 @@ RUN \
   cd /tmp && \
   curl -o \
     /tmp/cura.app -L \
-    "https://github.com/Ultimaker/Cura/releases/download/${CURA_VERSION}/UltiMaker-Cura-${CURA_VERSION}-linux-X64.AppImage" && \
+    "https://github.com/Ultimaker/Cura/releases/download/${CURA_VERSION}/UltiMaker-Cura-$(echo ${CURA_VERSION} | awk -F'-' '{print $1}')-linux-X64.AppImage" && \
   chmod +x /tmp/cura.app && \
   ./cura.app --appimage-extract && \
   mv squashfs-root /opt/cura && \
