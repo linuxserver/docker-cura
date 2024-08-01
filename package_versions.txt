@@ -30,10 +30,7 @@ NAME                                                                          VE
 @tufjs/models                                                                 2.0.0                                   npm                          
 @types/cookie                                                                 0.4.1                                   npm                          
 @types/cors                                                                   2.8.17                                  npm                          
-@types/node                                                                   20.14.12                                npm                          
-Charon                                                                        1.0                                     python                       
-PyGObject                                                                     3.42.2                                  python                       
-PyJWT                                                                         2.6.0                                   python                       
+@types/node                                                                   22.0.1                                  npm                          
 abbrev                                                                        2.0.0                                   npm                          
 accepts                                                                       1.3.8                                   npm                          
 adduser                                                                       3.134                                   deb                          
@@ -76,6 +73,7 @@ call-bind                                                                     1.
 catatonit                                                                     0.1.7-1+b1                              deb                          
 chalk                                                                         4.1.2                                   npm                          
 chalk                                                                         5.3.0                                   npm                          
+charon                                                                        1.0                                     python                       
 chownr                                                                        2.0.0                                   npm                          
 ci-info                                                                       4.0.0                                   npm                          
 cidr-regex                                                                    4.0.5                                   npm                          
@@ -149,6 +147,7 @@ docker-ce                                                                     5:
 docker-ce-cli                                                                 5:27.1.1-1~debian.12~bookworm           deb                          
 docker-compose-plugin                                                         2.29.1-1~debian.12~bookworm             deb                          
 dpkg                                                                          1.21.22                                 deb                          
+dunst                                                                         1.9.0-0.1                               deb                          
 e2fsprogs                                                                     1.47.0-2                                deb                          
 eastasianwidth                                                                0.2.0                                   npm                          
 ee-first                                                                      1.1.1                                   npm                          
@@ -284,7 +283,7 @@ github.com/docker/buildx                                                      v0
 github.com/docker/cli                                                         v27.0.3+incompatible                    go-module                    
 github.com/docker/cli                                                         v27.1.0+incompatible                    go-module                    
 github.com/docker/cli-docs-tool                                               v0.8.0                                  go-module  (+1 duplicate)    
-github.com/docker/cli/cmd/docker                                              v27.1.1                                 go-module                    
+github.com/docker/cli/cmd/docker                                              27.1.1                                  go-module                    
 github.com/docker/compose/v2                                                  v2.29.1                                 go-module                    
 github.com/docker/distribution                                                v2.8.2+incompatible                     go-module                    
 github.com/docker/distribution                                                v2.8.3+incompatible                     go-module  (+1 duplicate)    
@@ -634,8 +633,8 @@ kclient                                                                       0.
 keyboard-configuration                                                        1.221                                   deb                          
 keyring                                                                       23.0.1                                  python                       
 krb5-locales                                                                  1.20.1-2+deb12u2                        deb                          
-lazr.restfulclient                                                            0.14.5                                  python                       
-lazr.uri                                                                      1.0.6                                   python                       
+lazr-restfulclient                                                            0.14.5                                  python                       
+lazr-uri                                                                      1.0.6                                   python                       
 libacl1                                                                       2.3.1-3                                 deb                          
 libalgorithm-c3-perl                                                          0.11-2                                  deb                          
 libaom3                                                                       3.6.0-1                                 deb                          
@@ -861,6 +860,8 @@ libnfnetlink0                                                                 1.
 libnftnl11                                                                    1.2.4-2                                 deb                          
 libnghttp2-14                                                                 1.52.0-1+deb12u1                        deb                          
 libnorm1                                                                      1.5.9+dfsg-2                            deb                          
+libnotify-bin                                                                 0.8.1-1                                 deb                          
+libnotify4                                                                    0.8.1-1                                 deb                          
 libnpmaccess                                                                  8.0.5                                   npm                          
 libnpmdiff                                                                    6.1.1                                   npm                          
 libnpmexec                                                                    8.1.0                                   npm                          
@@ -1194,6 +1195,8 @@ publicsuffix                                                                  20
 pulseaudio                                                                    16.1+dfsg1-2+b1                         deb                          
 pulseaudio-utils                                                              16.1+dfsg1-2+b1                         deb                          
 pulseaudio2                                                                   0.5.5                                   npm                          
+pygobject                                                                     3.42.2                                  python                       
+pyjwt                                                                         2.6.0                                   python                       
 pyparsing                                                                     3.0.9                                   python                       
 pyserial                                                                      3.4                                     python                       
 python                                                                        3.10.4                                  binary                       
@@ -1294,7 +1297,7 @@ type-is                                                                       1.
 tzdata                                                                        2024a-0+deb12u1                         deb                          
 ucf                                                                           3.0043+nmu1                             deb                          
 udev                                                                          252.26-1~deb12u2                        deb                          
-undici-types                                                                  5.26.5                                  npm                          
+undici-types                                                                  6.11.1                                  npm                          
 unique-filename                                                               3.0.0                                   npm                          
 unique-slug                                                                   4.0.0                                   npm                          
 unpipe                                                                        1.0.0                                   npm                          
