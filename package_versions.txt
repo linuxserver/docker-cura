@@ -106,16 +106,16 @@ cross-spawn                                                                   7.
 cryptography                                                                  38.0.4                                              python     (+1 duplicate)    
 cryptography                                                                  41.0.1                                              python                       
 cssesc                                                                        3.0.0                                               npm                          
-cups                                                                          2.4.2-3+deb12u7                                     deb                          
-cups-client                                                                   2.4.2-3+deb12u7                                     deb                          
-cups-common                                                                   2.4.2-3+deb12u7                                     deb                          
-cups-core-drivers                                                             2.4.2-3+deb12u7                                     deb                          
-cups-daemon                                                                   2.4.2-3+deb12u7                                     deb                          
-cups-filters                                                                  1.28.17-3                                           deb                          
-cups-filters-core-drivers                                                     1.28.17-3                                           deb                          
-cups-ipp-utils                                                                2.4.2-3+deb12u7                                     deb                          
-cups-ppdc                                                                     2.4.2-3+deb12u7                                     deb                          
-cups-server-common                                                            2.4.2-3+deb12u7                                     deb                          
+cups                                                                          2.4.2-3+deb12u8                                     deb                          
+cups-client                                                                   2.4.2-3+deb12u8                                     deb                          
+cups-common                                                                   2.4.2-3+deb12u8                                     deb                          
+cups-core-drivers                                                             2.4.2-3+deb12u8                                     deb                          
+cups-daemon                                                                   2.4.2-3+deb12u8                                     deb                          
+cups-filters                                                                  1.28.17-3+deb12u1                                   deb                          
+cups-filters-core-drivers                                                     1.28.17-3+deb12u1                                   deb                          
+cups-ipp-utils                                                                2.4.2-3+deb12u8                                     deb                          
+cups-ppdc                                                                     2.4.2-3+deb12u8                                     deb                          
+cups-server-common                                                            2.4.2-3+deb12u8                                     deb                          
 curl                                                                          7.88.1-10+deb12u7                                   deb                          
 dario.cat/mergo                                                               v1.0.0                                              go-module  (+1 duplicate)    
 dario.cat/mergo                                                               v1.0.1                                              go-module                    
@@ -179,7 +179,7 @@ file-uri-to-path                                                              1.
 filelist                                                                      1.0.4                                               npm                          
 finalhandler                                                                  1.3.1                                               npm                          
 findutils                                                                     4.9.0-4                                             deb                          
-firefox-esr                                                                   115.15.0esr-1~deb12u1                               deb                          
+firefox-esr                                                                   128.3.0esr-1~deb12u1                                deb                          
 fontconfig                                                                    2.14.1-4                                            deb                          
 fontconfig-config                                                             2.14.1-4                                            deb                          
 fonts-dejavu-core                                                             2.37-6                                              deb                          
@@ -702,8 +702,8 @@ libcolord2                                                                    1.
 libcom-err2                                                                   1.47.0-2                                            deb                          
 libcrypt1                                                                     1:4.4.33-2                                          deb                          
 libcryptsetup12                                                               2:2.6.1-4~deb12u2                                   deb                          
-libcups2                                                                      2.4.2-3+deb12u7                                     deb                          
-libcupsfilters1                                                               1.28.17-3                                           deb                          
+libcups2                                                                      2.4.2-3+deb12u8                                     deb                          
+libcupsfilters1                                                               1.28.17-3+deb12u1                                   deb                          
 libcurl3-gnutls                                                               7.88.1-10+deb12u7                                   deb                          
 libcurl4                                                                      7.88.1-10+deb12u7                                   deb                          
 libdata-optlist-perl                                                          0.113-1                                             deb                          
@@ -714,7 +714,6 @@ libdatrie1                                                                    0.
 libdav1d6                                                                     1.0.0-2+deb12u1                                     deb                          
 libdb5.3                                                                      5.3.28+dfsg2-1                                      deb                          
 libdbus-1-3                                                                   1.14.10-1~deb12u1                                   deb                          
-libdbus-glib-1-2                                                              0.112-3                                             deb                          
 libdc1394-25                                                                  2.2.6-4                                             deb                          
 libdconf1                                                                     0.40.0-4                                            deb                          
 libde265-0                                                                    1.0.11-1+deb12u2                                    deb                          
@@ -753,7 +752,7 @@ libfile-sharedir-perl                                                         1.
 libflac12                                                                     1.4.2+ds-2                                          deb                          
 libflite1                                                                     2.2-5                                               deb                          
 libfontconfig1                                                                2.14.1-4                                            deb                          
-libfontembed1                                                                 1.28.17-3                                           deb                          
+libfontembed1                                                                 1.28.17-3+deb12u1                                   deb                          
 libfontenc1                                                                   1:1.1.4-1                                           deb                          
 libfreetype6                                                                  2.12.1+dfsg-5+deb12u3                               deb                          
 libfribidi0                                                                   1.0.8-2.1                                           deb                          
