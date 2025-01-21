@@ -6,6 +6,7 @@ project_url: "https://ultimaker.com/software/ultimaker-cura/"
 project_logo: "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/cura-logo.png"
 project_blurb: "[UltiMaker Cura]({{ project_url }}) is free, easy-to-use 3D printing software trusted by millions of users. Fine-tune your 3D model with 400+ settings for the best slicing and printing results."
 project_lsio_github_repo_url: "https://github.com/linuxserver/docker-{{ project_name }}"
+project_categories: "3D Printing"
 project_blurb_optional_extras_enabled: false
 # supported architectures
 available_architectures:
