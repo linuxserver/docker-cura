@@ -105,7 +105,7 @@ cron                                                                          3.
 cron-daemon-common                                                            3.0pl1-162                              deb                         
 cross-spawn                                                                   7.0.3                                   npm                         
 cryptography                                                                  38.0.4                                  python     (+1 duplicate)   
-cryptography                                                                  41.0.1                                  python                      
+cryptography                                                                  44.0.0                                  python                      
 cssesc                                                                        3.0.0                                   npm                         
 cups                                                                          2.4.2-3+deb12u8                         deb                         
 cups-client                                                                   2.4.2-3+deb12u8                         deb                         
@@ -676,7 +676,7 @@ k8s.io/utils                                                                  v0
 kbd                                                                           2.5.1-1+b1                              deb                         
 kclient                                                                       0.4.1                                   npm                         
 keyboard-configuration                                                        1.221                                   deb                         
-keyring                                                                       23.0.1                                  python                      
+keyring                                                                       25.5.0                                  python                      
 krb5-locales                                                                  1.20.1-2+deb12u2                        deb                         
 lazr-restfulclient                                                            0.14.5                                  python                      
 lazr-uri                                                                      1.0.6                                   python                      
@@ -1243,7 +1243,7 @@ pygobject                                                                     3.
 pyjwt                                                                         2.6.0                                   python                      
 pyparsing                                                                     3.0.9                                   python                      
 pyserial                                                                      3.4                                     python                      
-python                                                                        3.10.4                                  binary                      
+python                                                                        3.12.2                                  binary                      
 python-apt                                                                    2.6.0                                   python                      
 python-apt-common                                                             2.6.0                                   deb                         
 python3                                                                       3.11.2-1+b1                             deb                         
@@ -1285,7 +1285,6 @@ send                                                                          0.
 sensible-utils                                                                0.0.17+nmu1                             deb                         
 serve-static                                                                  1.16.2                                  npm                         
 setprototypeof                                                                1.2.0                                   npm                         
-setuptools                                                                    62.0.0                                  python                      
 sgml-base                                                                     1.31                                    deb                         
 shared-mime-info                                                              2.2-1                                   deb                         
 shebang-command                                                               2.0.0                                   npm                         
