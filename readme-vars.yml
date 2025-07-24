@@ -24,24 +24,23 @@ param_volumes:
   - {vol_path: "/config", vol_host_path: "/path/to/config", desc: "Users home directory in the container, stores program settings and files."}
 param_usage_include_ports: true
 param_ports:
-  - {external_port: "3000", internal_port: "3000", port_desc: "Cura desktop gui."}
+  - {external_port: "3000", internal_port: "3000", port_desc: "Cura desktop gui HTTP, must be proxied."}
   - {external_port: "3001", internal_port: "3001", port_desc: "Cura desktop gui HTTPS."}
 opt_security_opt_param: true
 opt_security_opt_param_vars:
   - {run_var: "seccomp=unconfined", compose_var: "seccomp:unconfined", desc: "For Docker Engine only, many modern gui apps need this to function on older hosts as syscalls are unknown to Docker."}
-# Kasm blurb settings
-kasm_blurb: true
+# Selkies blurb settings
+selkies_blurb: true
 show_nvidia: true
-external_http_port: "3000"
-external_https_port: "3001"
-noto_fonts: "fonts-noto-cjk"
 # application setup block
 app_setup_block_enabled: true
 app_setup_block: |
   The application can be accessed at:
 
-  * http://yourhost:3000/
   * https://yourhost:3001/
+
+  **Cura has a known bug that it will OOM and crash unless you set `preferences > confgure cura > Disable: crash reports, updates, notifications`, this is a hard requirement or it will OOM.**
+
 # init diagram
 init_diagram: |
   "cura:latest": {
@@ -104,6 +103,7 @@ init_diagram: |
   "cura:latest" <- Base Images
 # changelog
 changelogs:
+  - {date: "12.07.25:", desc: "Rebase to Selkies, HTTPS IS NOW REQUIRED."}
   - {date: "03.06.24:", desc: "Update ingestion from GitHub to handle RC releases."}
   - {date: "10.02.24:", desc: "Update Readme with new env vars and ingest proper PWA icon."}
   - {date: "15.11.23:", desc: "Initial release."}
