@@ -108,7 +108,7 @@ init_diagram: |
   "cura:latest" <- Base Images
 # changelog
 changelogs:
-  - {date: "28.12.25:", desc: "Add Wayland init logic, rebase to Trixie."}
+  - {date: "28.12.25:", desc: "Add Wayland init logic, rebase to Noble."}
   - {date: "12.07.25:", desc: "Rebase to Selkies, HTTPS IS NOW REQUIRED."}
   - {date: "03.06.24:", desc: "Update ingestion from GitHub to handle RC releases."}
   - {date: "10.02.24:", desc: "Update Readme with new env vars and ingest proper PWA icon."}

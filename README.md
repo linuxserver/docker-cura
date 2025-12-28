@@ -593,7 +593,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
-* **28.12.25:** - Add Wayland init logic, rebase to Trixie.
+* **28.12.25:** - Add Wayland init logic, rebase to Noble.
 * **12.07.25:** - Rebase to Selkies, HTTPS IS NOW REQUIRED.
 * **03.06.24:** - Update ingestion from GitHub to handle RC releases.
 * **10.02.24:** - Update Readme with new env vars and ingest proper PWA icon.

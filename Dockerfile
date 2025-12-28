@@ -1,6 +1,6 @@
 # syntax=docker/dockerfile:1
 
-FROM ghcr.io/linuxserver/baseimage-selkies:debiantrixie
+FROM ghcr.io/linuxserver/baseimage-selkies:ubuntunoble
 
 # set version label
 ARG BUILD_DATE
@@ -21,8 +21,9 @@ RUN \
   echo "**** install packages ****" && \
   apt-get update && \
   DEBIAN_FRONTEND=noninteractive \
+  add-apt-repository ppa:xtradeb/apps && \
   apt-get install --no-install-recommends -y \
-    firefox-esr && \
+    firefox && \
   echo "**** install cura from appimage ****" && \
   if [ -z ${CURA_VERSION+x} ]; then \
     CURA_VERSION=$(curl -sX GET "https://api.github.com/repos/Ultimaker/Cura/releases/latest" \
