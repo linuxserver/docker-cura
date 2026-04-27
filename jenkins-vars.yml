@@ -1,6 +1,7 @@
 ---
 
 # jenkins variables
+# Do not add screenshot delay to this container it can OOM the build host!
 project_name: docker-cura
 external_type: github_stable
 release_type: stable
