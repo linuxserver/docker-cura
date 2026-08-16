@@ -28,7 +28,7 @@ RUN \
   echo "**** install cura from appimage ****" && \
   if [ -z ${CURA_VERSION+x} ]; then \
     CURA_VERSION=$(curl -sX GET "https://api.github.com/repos/Ultimaker/Cura/releases/latest" \
-    | awk '/tag_name/{print $4;exit}' FS='[""]'); \
+    | jq -r '.tag_name'); \
   fi && \
   cd /tmp && \
   curl -o \
