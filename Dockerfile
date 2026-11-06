@@ -37,6 +37,7 @@ RUN \
   chmod +x /tmp/cura.app && \
   ./cura.app --appimage-extract && \
   mv squashfs-root /opt/cura && \
+  find /opt/cura -type d -exec chmod 755 {} + && \
   sed -i 's/QT_QPA_PLATFORMTHEME=xdgdesktopportal/QT_QPA_PLATFORMTHEME=gtk3/' /opt/cura/AppRun.env && \
   sed -i 's|</applications>|  <application title="UltiMaker Cura" type="normal">\n    <maximized>yes</maximized>\n  </application>\n</applications>|' /etc/xdg/openbox/rc.xml && \
   echo "**** cleanup ****" && \
