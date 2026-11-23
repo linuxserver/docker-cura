@@ -34,8 +34,6 @@ app_setup_block: |
   The application can be accessed at:
 
   * https://yourhost:3001/
-
-  **Cura has a known bug that it will OOM and crash unless you set `preferences > confgure cura > Disable: crash reports, updates, notifications`, this is a hard requirement or it will OOM.**
 # init diagram
 init_diagram: |
   "cura:latest": {
@@ -109,6 +107,7 @@ init_diagram: |
   "cura:latest" <- Base Images
 # changelog
 changelogs:
+  - {date: "23.11.26:", desc: "Pass USER to stop program from using all host ram."}
   - {date: "19.04.26:", desc: "Rebase to resolute."}
   - {date: "29.03.26:", desc: "Make Wayland default disable with PIXELFLUX_WAYLAND=false."}
   - {date: "28.12.25:", desc: "Add Wayland init logic, rebase to Noble."}

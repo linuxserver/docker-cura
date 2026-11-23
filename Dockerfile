@@ -12,7 +12,8 @@ LABEL maintainer="thelamer"
 # title
 ENV TITLE=Cura \
     NO_GAMEPAD=true \
-    PIXELFLUX_WAYLAND=true
+    PIXELFLUX_WAYLAND=true \
+    USER=abc
 
 RUN \
   echo "**** add icon ****" && \

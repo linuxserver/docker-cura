@@ -60,8 +60,6 @@ The application can be accessed at:
 
 * https://yourhost:3001/
 
-**Cura has a known bug that it will OOM and crash unless you set `preferences > confgure cura > Disable: crash reports, updates, notifications`, this is a hard requirement or it will OOM.**
-
 ### Strict reverse proxies
 
 This image uses a self-signed certificate by default. This naturally means the scheme is `https`.
@@ -359,6 +357,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **23.11.26:** - Pass USER to stop program from using all host ram.
 * **19.04.26:** - Rebase to resolute.
 * **29.03.26:** - Make Wayland default disable with PIXELFLUX_WAYLAND=false.
 * **28.12.25:** - Add Wayland init logic, rebase to Noble.
